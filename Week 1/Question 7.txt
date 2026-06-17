@@ -1,0 +1,11 @@
+Space Complexity of Merge Sort
+---------------------------------------------------
+The space complexity of Merge Sort is linear space.
+This means that the amount of extra memory the algorithm requires grows proportionally with the size of the input array
+
+Quick Sort - Efficient 
+--------------------------------------
+Quick Sort has a space complexity of $O(\log n)$ on average (and $O(n)$ in the worst-case scenario). 
+This makes Quick Sort significantly more space-efficient than Merge Sort
+1. In-Place Partitioning
+2. Quick Sort doesn't use auxiliary arrays, its only space consumption comes from the reconstructive call stack

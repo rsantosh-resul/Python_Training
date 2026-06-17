@@ -1,0 +1,8 @@
+The Calculation for O(n^2)
+An O(n^2) algorithm scales quadratically. 
+For an input of n = 1000, the number of operations jumps from 1,000 to 1,000^2.
+Calculate the number of operations: 1,000^2 = 1,000,000  operations
+
+Multiply by the time per operation: 1,000,000 * 0.005 ms = 5,000 ms
+
+The O(n^2) = approximately 5,000 milliseconds (or 5 seconds).

@@ -1,0 +1,10 @@
+Binary search has a time complexity of:
+
+O(log2n)
+
+For a sorted array of 1,000,000 elements:
+
+log2(1,000,000)
+
+Total - log2​(1,000,000)≈19.93
+Round Off - 20

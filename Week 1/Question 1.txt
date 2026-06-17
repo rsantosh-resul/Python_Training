@@ -1,0 +1,2 @@
+Python List are implemented as array list. Hence we directly access the array list.
+Syntax: arr[4]
