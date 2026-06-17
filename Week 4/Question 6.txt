@@ -1,0 +1,18 @@
+When to Choose a Linked List over a Python List
+You should implement or use a Linked List in the following scenarios:
+
+1. Your application requires constant-time insertions/deletions at the front
+If you frequently insert or remove items from the beginning of a sequence, 
+a Python list forces the system to shift every single remaining element down by one memory slot, resulting in an expensive O(n) operation. 
+A Linked List does this instantly in O(1) time by just altering two pointers.
+
+2. You need highly predictable latency (Real-Time Systems)Because Python lists are dynamic arrays, they allocate a fixed chunk of memory. 
+When that chunk fills up, Python automatically allocates a brand-new, larger chunk of memory and copies the entire existing array over to it. 
+
+3. You are building advanced Queues or StacksLinked lists are the native foundational structure for building efficient First-In, First-Out (FIFO) queues. 
+
+4. You are implementing low-level algorithms (Undo/Redo, Browser History)A Doubly Linked List is perfectly suited for managing linear states where you only transition to the immediate "next" state or "previous" state.
+
+Summary Checklist
+-------------------
+Choose a Python List if you need to frequently read or write values using specific indices (data[i]), or if your data size is relatively fixed.
