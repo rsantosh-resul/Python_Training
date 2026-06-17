@@ -1,0 +1,10 @@
+Time Complexities
+Data Structure		Average Time Complexity		Worst-Case Time Complexity
+(a) List / Array	O(n) (Linear)			O(n)
+(b) Set 		O(1) (Constant)			O(n) (Extremely rare)
+(c) Dictionary/Hash Map	O(1)$ (Constant)		O(n) (Extremely rare)
+
+Why Are They Different?
+-----------------------------
+A List is a Sequential Line
+Sets and Dictionaries Use Hash Tables

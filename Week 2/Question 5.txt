@@ -1,0 +1,3 @@
+A collections.deque (Double-Ended Queue) is preferred over a standard list for implementing a queue because of a massive difference in time complexity when removing items.
+
+A queue follows the FIFO (First-In, First-Out) principle. This means you are constantly adding items to the back of the queue and pulling items out from the front.

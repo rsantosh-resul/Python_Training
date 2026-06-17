@@ -1,0 +1,6 @@
+If we use a mutable object like a list  in Python, the interpreter will not accept and immediately crash and throw an error.
+Python dictionaries are built using Hash Tables. For a dictionary to find a key instantly ($O(1)$ constant time), it relies on a hash function.
+
+Alternate Solution:
+Immutable objects (strings, integers, floats, tuples, frozensets) are hashable --> Can be used as dictionary keys.
+Mutable objects (lists, dictionaries, sets) are unhashable --> Cannot be used as dictionary keys.

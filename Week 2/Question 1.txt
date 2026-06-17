@@ -1,0 +1,9 @@
+Uniqueness & Speed
+------------------------
+Use "set" instead of "list"
+
+When a list requires order and allow duplicate items
+
+ This changes the game for two specific operations:Searching (item in collection): 
+ 1. A list takes O(n) time because it has to check every single item one by one. A set takes O(1) constant time because it maps the item directly to a memory address.
+ 2. Enforcing Uniqueness: A set automatically discards duplicate entries, saving you from writing nested loops or conditional logic.
