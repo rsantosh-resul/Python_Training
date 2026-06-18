@@ -1,0 +1,15 @@
+LIFO and FIFO are the two primary foundational frameworks used to describe how data structures, inventory, or workflows organize, track, and process items.
+
+The core distinction between them comes down to a simple operational choice: Which item gets handled next—the newest arrival or the oldest resident?
+
+1. FIFO (First-In, First-Out)
+In a FIFO strategy, the very first item added to the collection is the absolute first one to be removed. It processes items sequentially in the exact chronological order that they arrived.
+
+Examples:
+The Amusement Park Line: Think of standing in a queue for a rollercoaster. The person who arrived first gets onto the ride first. If you arrive last, you must wait until everyone ahead of you has been served.
+
+2. LIFO (Last-In, First-Out)
+In a LIFO strategy, the most recent (last) item added to the collection is the very first one to be taken out. Elements are stacked on top of one another, meaning you can only access or modify the top-most layer at any given time.
+
+Examples:
+A Stack of Dinner Plates: When washing dishes, you place each clean plate directly on top of the previous one. When it's time to set the table, you naturally grab the plate sitting on the very top—which happens to be the last plate you washed.
